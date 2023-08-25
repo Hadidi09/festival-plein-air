@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/bc9cd35a5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Le film</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/logo.png"
+              alt="logo"
+              width="180"
+              height="60"
+              class="rounded-3"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Acceuil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="actualite.html">Actualités</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#"><i class="nav-link fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#"><i class="nav-link fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!-- Contenu ici -->
+      <div class="fullimage row">
+        <div class="col-sm-12 col-md-12 title-description">
+          <h1>📽️ Festival du cinéma plein air du parc manceau 📽️</h1>
+        </div>
+      </div>
+      <div class="actualite">
+        <ul>
+          <li>
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmlsbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top"
+                alt="..."
+                width="250"
+              />
+
+              <div class="card-body d-flex flex-column align-items-center">
+                <h5 class="card-title">LITTLE MISS SUNSHINE</h5>
+                <p>
+                  La force de ce film, c'est un scénario qui colle à son héros,
+                  <br />
+                  cet adolescent silencieux, au reard aigu. [...] <br />
+                  Ici tout tient dans les détails, celui d'une pomme qui roule,
+                  <br />
+                  d'un poisson séché, de la blondeur d'une fille, <br />
+                  de combats de boxe à mains nues sur le bitume... <br />
+                  Tous ces éléments plus les plaines de son pays, <br />
+                  et quelques humains à l'intérieur, rendent ce film unique,
+                  original. <br />
+                </p>
+                <a href="#" class="btn btn-primary">Se préinscrire</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="carousel-container d-flex justify-content-center">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-red slide justify-content-center align-items-center"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded-3">
+            <div
+              class="carousel-item custom-caroussel-item active"
+              data-bs-interval="10000"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1529798856831-427dfd0a1ab1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZpbG18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                class="d-block custom-caroussel-image"
+                alt="..."
+                style="width: 23rem"
+              />
+            </div>
+            <div
+              class="carousel-item custom-caroussel-item"
+              data-bs-interval="2000"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlsbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="d-block custom-caroussel-image"
+                alt="..."
+                style="width: 23rem"
+              />
+            </div>
+            <div class="carousel-item custom-caroussel-item">
+              <img
+                src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmlsbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="d-block custom-caroussel-image"
+                alt="..."
+                style="width: 23rem"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="row bg-warning text-black mt-2 d-flex flex-column align-items-center"
+    >
+      <div class="col-12 col-md-6 d-flex justify-content-center mt-2">
+        <div
+          class="mb-2 mb-md-0 me-md-2 flex-grow-1 d-flex align-self-md-center align-items-center flex-column flex-lg-row justify-content-lg-between"
+        >
+          <p
+            class="bg-dark text-white text-center rounded-3 p-2 fix-content mw-100 mb-2 mb-lg-0"
+          >
+            Association Les Films de Plein Air, en lien avec le festival du
+            cinéma au parc de Monceau.
+          </p>
+          <button
+            class="bg-dark text-white rounded-3 mt-2 fix-content align-self-center"
+          >
+            Mentions légales
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="col-12 mt-3 d-flex justify-content-center align-items-center mb-2 text-center text-md-center bg-dark text-white rounded-3 p-2 fix-content"
+      >
+        <p class="mb-0">
+          &copy; 2023 Les Films de Plein Air. Tous droits réservés.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

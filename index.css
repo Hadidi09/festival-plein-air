@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Pacifico&family=Playfair&family=Playfair+Display&display=swap");
+
+.listefilms img {
+  width: 16.9rem;
+  height: 150px;
+  border-radius: 6px;
+}
+.listefilms {
+  background: #000;
+  border-radius: 13px;
+  padding: 1rem;
+}
+.listefilms ul,
+.actualite ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 26px;
+  list-style: none;
+  padding-left: 0 !important;
+}
+.fullimage {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 100%;
+}
+.fullimage img {
+  width: 100%;
+  height: auto;
+}
+.custom-caroussel-item {
+  width: 100%;
+  height: 300px;
+}
+.custom-caroussel-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.fix-content {
+  width: 13.5rem;
+  height: 6.5rem;
+}
+.fix-margin {
+  margin-left: 2rem !important;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titre {
+  display: flex;
+  justify-content: space-around;
+}
+.icon ul {
+  list-style: none;
+}
+body {
+  background-color: darkred;
+  color: yellow;
+  font-family: "Playfair", serif;
+}
+.btndescription {
+  background-color: darkred;
+  color: #fff;
+  border-color: darkred;
+}
+.btndinscription {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+.container {
+  position: relative;
+}
+h1 {
+  font-family: "Cinzel", serif;
+}
+p,
+.btn-primary {
+  font-family: "Playfair", serif;
+}
+.bold {
+  font-weight: bold;
+}
+.title-description {
+  width: 100%;
+  text-align: center;
+  top: 13rem;
+  z-index: 1000;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1% auto;
+  padding: 4rem;
+  border-radius: 21rem;
+}
+.fab {
+  color: #000;
+}
+.inline-btn {
+  display: inline-block;
+}
+.carousel-container {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+.width-form {
+  width: 14rem;
+}
+@media (max-width: 1199px) {
+  .carousel-container {
+    max-width: none;
+  }
+}
+@media (max-width: 661px) {
+  .article {
+    width: 90%;
+    margin: auto !important;
+  }
+}
